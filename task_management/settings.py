@@ -129,3 +129,5 @@ SIMPLE_JWT = {
     'AUTH_HEADER_TYPES': ('Bearer',),
 }
 
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+
